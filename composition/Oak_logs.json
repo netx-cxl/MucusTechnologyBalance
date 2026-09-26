@@ -1,0 +1,8 @@
+{
+    "name":"Oak_logs",
+    "kind":"raw_material",
+    "pattern": "recipe",
+    "out_result": {
+        "Oak_logs":1
+    }
+}

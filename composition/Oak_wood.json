@@ -1,0 +1,11 @@
+{
+    "name":"Oak_wood",
+    "kind":"composition",
+    "pattern":"recipe",
+    "put_materials":{
+        "Oak_logs":1
+    },
+    "out_result":{
+        "Oak_wood":4
+    }
+}

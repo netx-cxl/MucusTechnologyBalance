@@ -1,0 +1,23 @@
+在composition里面放入每个物品合成表，然后plan放入你想要的物品
+点击开始配平.exe，结果会输出到outResult
+composition,plan是json文件outResult是文本txt文件
+开发环境是windows没做其他适配
+
+合成表composition
+{
+模式：配方/制作0/1
+材料：{
+	文本：数量；
+	}
+}
+
+计划plan
+{
+模式：制作/配方1/0
+制作数量：数量；
+}
+
+composition会跳过制作模式同理plan也会跳过配方模式
+
+等级是按0到21亿的排序
+等级0是最终产物，往后的是合成的上级，为什么这样？因为我懒
